@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -16,9 +16,15 @@
         <a href="array.html">Array</a>
         <a href="if_else.html">if_else</a>
     </nav>
+    <div><h5>Items=['Apple','Banana','Charry','Date','Elderberry'];</h5></div>
     <div class="container">
-        <h1>Welcome to javascript Site</h1>
-        <p>click the link above to explore Javascrift functionalities</p>
+        <h2>select an Array Item</h2>
+
+        <input type="number"id="arryaIndex"placeholder="Enter index (0-4)">
+        <button onclick="displayArrayItem()">Show Item</button>
+        <p id="arrayResult"></p>
+       
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
